@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppHUb</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_hub">AppHUB</string>
+    <string name="home">Home</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="Name">Name</string>
+    <string name="InApp">In-app:%1$s</string>
+    <string name="ProductCount">Product count:%1$d</string>
+    <string name="Type">Type</string>
+    <string name="InAppPurchase">In-App purchase</string>
+    <string name="Last_updated">Last updated</string>
+    <string name="Rating">Rating</string>
+    <string name="SortBy">Sort-by</string>
+    <string name="AppStore">App store</string>
+    <string name="back">Back</string>
+    <string name="share">Share</string>
+    <string name="sms">SMS</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

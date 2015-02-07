@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_divider">#00FFFF</color>
+    <color name="header_text_color">#848484</color>
+    <color name="layouts_background">#F5F5F5</color>
+    <color name="apphub_header_color">#FFA72F</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="menu_divider">#F6CECE</color>
+    <color name="green">#00FF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="sort_by_background">#ddFBBEC1</color>
+    <color name="sort_by_color">#FF4055</color>
+    
+    
+    <color name="button_home_pressed">#FF5304</color>
+    <color name="button_home_normal">#FB7750</color>
+    
+    <color name="button_appstore_pressed">#1AA6F9</color>
+    <color name="button_appstore_normal">#AA1AA6F9</color>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/productDetails_rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/background_color">
+    
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        android:background="@color/layouts_background">
+        
+        <com.pankaj716.utils.MyImageView
+            android:id="@+id/productDetails_imageView_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:layout_gravity="left|top"/>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:layout_weight="1">
+            
+            <TextView 
+                style="@style/textviewstyle_MediumBig"
+                android:id="@+id/productDetails_textview_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:padding="5dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/Name"/>
+            <RatingBar 
+                android:id="@+id/productDetails_ratingBar"
+               style="@style/CustomRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="0"
+                android:layout_gravity="left|center_vertical"
+                android:max="5"
+                android:isIndicator="false" />
+            <TextView 
+                style="@style/textviewstyle_Medium"
+                android:id="@+id/productDetails_textView_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/layouts_background"
+        android:orientation="horizontal">
+        
+        <TextView 
+            style="@style/textviewstyle_MediumBig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:padding="5dp"
+            android:layout_weight="1.5"
+            android:text="@string/Type"/>
+        <View 
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/menu_divider"/>
+        <TextView 
+            android:id="@+id/productDetails_textView_type"
+            style="@style/textviewstyle_16SP_NO_BOLD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Type"/>
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/layouts_background"
+        android:orientation="horizontal">
+        
+        <TextView 
+            style="@style/textviewstyle_MediumBig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="@string/InAppPurchase"/>
+        <View 
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/menu_divider"/>
+        <TextView 
+            android:id="@+id/productDetails_textView_inapp"
+            style="@style/textviewstyle_16SP_NO_BOLD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="@string/InAppPurchase"/>
+    </LinearLayout>
+    
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/layouts_background"
+        android:orientation="horizontal">
+        
+        <TextView 
+            style="@style/textviewstyle_MediumBig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_weight="1.2"
+            android:text="@string/Last_updated"/>
+        <View 
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/menu_divider"/>
+        <TextView 
+            android:id="@+id/productDetails_textView_lastUpdated"
+            style="@style/textviewstyle_16SP_NO_BOLD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Last_updated"/>
+    </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>
